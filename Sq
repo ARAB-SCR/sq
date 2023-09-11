@@ -883,7 +883,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	Main.Shadow.Image.ImageTransparency = 1
 	LoadingFrame.Version.TextTransparency = 1
 	LoadingFrame.Title.Text = Settings.LoadingTitle or "Rayfield Interface Suite"
-	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "by Sirius"
+	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "صناعة سعودية"
 	if Settings.LoadingTitle ~= "Rayfield Interface Suite" then
 		LoadingFrame.Version.Text = "صناعة سعودية"
 	end
@@ -1022,7 +1022,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 
 			local KeyMain = KeyUI.Main
 			KeyMain.Title.Text = Settings.KeySettings.Title or Settings.Name
-			KeyMain.Subtitle.Text = Settings.KeySettings.Subtitle or "Key System"
+			KeyMain.Subtitle.Text = Settings.KeySettings.Subtitle or "مفتاح"
 			KeyMain.NoteMessage.Text = Settings.KeySettings.Note or "No instructions"
 
 			KeyMain.Size = UDim2.new(0, 467, 0, 175)
